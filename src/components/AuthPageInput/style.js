@@ -28,11 +28,9 @@ export const messageBox = (type) => css`
     font-weight: 600;
 `;
 
-
 export const inputIcon = (type) => css`
     position: absolute;
     top: 10px;
     right: 10px;
-    color: ${type === "error" ? "#ff6161" : "#00921b"};
-`
-
+    color: ${type === "error" ? "#ff3030" : "#00921b"};
+`;
